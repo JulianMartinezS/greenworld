@@ -7,7 +7,8 @@ body {
 h1{ 
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background: rgb(252,255,190);
+    background: radial-gradient(circle, rgba(252,255,190,1) 0%, rgba(113,208,113,1) 100%);
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     color: #004b23;

@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenWorld</title>
-    <link rel="stylesheet" href="/Styles/styles-propios-julian.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/styles-propios-julian.css">
     <link rel="shortcut icon" href="../Multimedia/Logo chiquito.png">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Permanent+Marker&family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-<body>   
+
+    <body>   
 
     <header>
 
@@ -31,7 +33,7 @@
 
    <main>
 
-        <nav class="menuNavegacion">
+        <nav class="menuNavegacion sticky-top">
 
             <ul class="menuNavegacion__links">
 
@@ -66,21 +68,32 @@
 
             <aside>
                 
-                <div class="imagenesGaleria">
-
-                    <img src="../Multimedia/Galeria1.jpg" alt="Jardin contruido por nosotros">
-            
-                    <img src="../Multimedia/galeria4.jpg" alt="Jardin contruido por nosotros">
-                
-                    <img src="../Multimedia/galeria3.jpg" alt="Jardin contruido por nosotros">
-            
-                    <img src="../Multimedia/galeria 5.jpeg" alt="Jardin contruido por nosotros">
-            
-                    <img src="../Multimedia/galeria 6.jpeg" alt="Jardin contruido por nosotros">
-            
-                    <iframe class="videoGaleria" src="https://www.youtube.com/embed/5knEn8oP1hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               
-                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../Multimedia/galeria 5.jpeg" class="d-block w-100" alt="Imagen1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../Multimedia/galeria4.jpg" class="d-block w-100" alt="Imagen2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../Multimedia/galeria3.jpg" class="d-block w-100" alt="Imagen3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
 
             </aside>
 
@@ -91,6 +104,9 @@
         <p> Mas verde para el mundo </p>
 
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 

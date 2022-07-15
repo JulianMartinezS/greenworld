@@ -1,15 +1,13 @@
-
 body {
-    background-image: url(../Multimedia/JARDIN\ 1.jpg);
+    background-image: url(../multimedia/JARDIN\ 1.jpg);
     background-attachment: fixed;
 }
 
 h1{ 
     display: flex;
     justify-content: center;
-    background: rgb(252,255,190);
-    background: radial-gradient(circle, rgba(252,255,190,1) 0%, rgba(113,208,113,1) 100%);
-    text-align: center;
+    background: rgb(245,245,220);
+    background: linear-gradient(180deg, rgba(245,245,220,1) 19%, rgba(190,230,176,1) 59%, rgba(150,217,150,1) 100%); text-align: center;
     font-family: 'Permanent Marker', cursive;
     color: #004b23;
     font-size: 3rem;
@@ -61,6 +59,8 @@ h1{
     background-color: beige;
     border-style: groove;
     border-color: #004b23;
+    border-radius: 10px;
+    padding: 0.1rem;
 }
 
 .pieDePagina {
@@ -227,36 +227,26 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     empty-cells: hide; 
-    background-color: #b3efb2;
     border-radius: 20px;
-    font-size: large;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-color: azure;
     align-items: center;
 }
 
 .imagentelefono {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 20%;
-    max-height: 20%;
 }
+
+
 
 .formulario {
-    text-align: center;
+    max-height: 50%;
 }
 
-.formulario input {
-    margin: 0.5rem;
-}
-
-.cajacomentarios {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 /* TABLET */
 
@@ -363,11 +353,7 @@ h1{
         margin-right:1rem;
     }
 
-    .tablaPresupuestal {
-        max-width: 90%;
-        font-size: 1rem;
-    }
-
+    
     .imagenesGaleria {
         display: grid;
         grid-template-columns: 95%;
@@ -501,17 +487,7 @@ h1{
         font-size: 1rem;
     }
 
-    .tablaPresupuestal {
-        display: flex;
-        flex-flow: row wrap; 
-        background-color: #b3efb2;
-        border-radius: 20px;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 0.6rem;
-        border-color: azure;
-        max-width: 99%;       
-    }
+    
 
     
 }
-

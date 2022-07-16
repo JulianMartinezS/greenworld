@@ -1,7 +1,8 @@
 
 body {
-    background-image: url(/multimedia/jardin1.jpg);
+    background-image: url(../multimedia/fondojardin.jpg) ;
     background-attachment: fixed;
+    
 }
 
 h1{ 

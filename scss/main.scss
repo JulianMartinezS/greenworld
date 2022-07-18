@@ -1,6 +1,14 @@
+
+/* Variable simple */
+
+$fondoprincipal: url(../multimedia/fondojardin.jpg);
+$fondonavidad: url(../multimedia/fondonavidad.jpg);
+
+
 body {
-    background-image: url(../multimedia/JARDIN\ 1.jpg);
+    background-image: $fondonavidad;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{ 
@@ -40,29 +48,27 @@ h1{
     margin-right:1rem;
 
     li {
-
     font-size: 1.5rem;
     font-style: bold;
     list-style: none;
     }
+    a {
+        color: #264653;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        background-color: beige;
+        border-style: groove;
+        border-color: #004b23;
+        border-radius: 10px;
+        padding: 0.1rem;
+    }
+
+    a:hover {
+        background-color:darkolivegreen;
+        border-radius: 10px;
+    }
 }
 
-.menuNavegacion__links li a:hover {
-    background-color:darkolivegreen;
-    border-radius: 10px;
-}
-
-
-.menuNavegacion__links li a {
-    color: #264653;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    background-color: beige;
-    border-style: groove;
-    border-color: #004b23;
-    border-radius: 10px;
-    padding: 0.1rem;
-}
 
 .pieDePagina {
     display: flex;
@@ -139,18 +145,18 @@ h1{
     justify-content: center;
     align-content: center;
     margin-top: 2rem;
-}
-
-.imagenesGaleria img {
-    height: 65%;
-    width: 90%;  
-    background-color: beige;
-    padding: 1.5rem;
-    align-content: center;
-    border-radius: 10px;
-    margin: 0.5rem;
-}
-
+    
+    img {
+        height: 65%;
+        width: 90%;  
+        background-color: beige;
+        padding: 1.5rem;
+        align-content: center;
+        border-radius: 10px;
+        margin: 0.5rem;
+        }
+    }
+    
 .videoGaleria {
     height: 65%;
     width: 90%;  
@@ -284,23 +290,23 @@ h1{
         margin-top: 3rem;
         margin-left:1rem;
         margin-right:1rem;
-    }
     
-    .menuNavegacion__links li {
+    li {
         font-size: 1rem;
         font-style: bold;
         list-style: none;
+        
+        a   {
+            color: #264653;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            background-color: beige;
+            border-style: groove;
+            border-color: #004b23;
+            }
+        }
     }
-    
-    .menuNavegacion__links li a {
-        color: #264653;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        background-color: beige;
-        border-style: groove;
-        border-color: #004b23;
-    }
-    
+
     .pieDePagina {
         display: flex;
         justify-content: center;
@@ -428,21 +434,21 @@ h1{
         text-align: center;
         margin: 1rem;
         height: 9rem;
-    }
     
-    .menuNavegacion__links li {
+    li {
         font-size: 0.8rem;
         font-style: bold;
         list-style: none;
-    }
-    
-    .menuNavegacion__links li a {
-        color: #264653;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        background-color: beige;
-        border-style: groove;
-        border-color: #004b23;
+        
+        a   {
+            color: #264653;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            background-color: beige;
+            border-style: groove;
+            border-color: #004b23;
+            }
+        }
     }
     
     .pieDePagina {

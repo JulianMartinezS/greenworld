@@ -247,9 +247,9 @@
     "url": "https://github.com/JulianMartinezS/greenworld/issues"
   },
   "homepage": "https://github.com/JulianMartinezS/greenworld#readme",
-  "description": "",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "description": ""
 }

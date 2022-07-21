@@ -1,0 +1,8 @@
+
+Entrega SASS 2 y SEO con vencimiento 21/7/2022
+
+- Agregué keywords, descripción y títulos en el head. Con relación a los encabezados, entiendo que se utilizan para generar jerarquía en el texto a interpretar
+ y mi sitio no tiene mucho texto.
+- Las propiedades vistas en clases de SASS y SASS 2 las agregué tanto en el footer como en el H1. Las variables tanto en mixin, map y extend, a mi entender
+ se aplican mejor en sitios mas extensos ya que ahorra mucho código y facilita el trabajo, en mi sitio al ser pequeño no encuentro donde sacar provecho a estar herramientas
+ sinceramente pero estan ahi y bien aplicadas.

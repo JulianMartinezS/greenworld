@@ -11,6 +11,38 @@ body {
     background-size: cover;
 }
 
+$tamanofuentes: ( 
+    0.5rem,
+    0.7rem, 
+    1rem,
+    1.3rem,
+    1.5rem,
+    1.7rem, 
+    2rem,
+    2.5rem,
+    3rem
+    );
+
+@each $size in $tamanofuentes {
+    .elegirtamano-#{$size} {
+    font-size: $size;
+    height: $size;
+    width: $size;
+    }
+}
+
+$estilosnavidad: (
+    rojonavidad: #c20114,
+    fuente:'Mountains of Christmas',  
+    verdenavidad:#003e1f,
+    alineacion:center
+);
+
+@mixin margen ($margenizq, $margender) {
+    margin-left: $margenizq;
+    margin-right: $margender;
+}
+
 h1{ 
     display: flex;
     justify-content: center;
@@ -19,8 +51,7 @@ h1{
     font-family: 'Permanent Marker', cursive;
     color: #004b23;
     font-size: 3rem;
-    margin-left:1rem;
-    margin-right:1rem;
+    @include margen(1rem, 1rem)
 }
 
 .fraseInicial {
@@ -74,12 +105,14 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Clicker Script', cursive;
-    background-color: beige;
+    font-family: map-get($estilosnavidad,fuente);
+    background-color: map-get($estilosnavidad,verdenavidad);
+    color: map-get($estilosnavidad,rojonavidad);
     font-size: 1.4rem;
     font-weight: bold;
     padding: 0.01rem;
     margin-top: 3rem;
+    flex-direction: column;
 }
 
 .contenedorLogo {
@@ -156,7 +189,8 @@ h1{
         margin: 0.5rem;
         }
     }
-    
+
+
 .videoGaleria {
     height: 65%;
     width: 90%;  
@@ -254,6 +288,10 @@ h1{
     max-height: 50%;
 }
 
+.textoservicios {
+    @extend .presentacion;
+    font-size: 1.4rem;
+}
 
 /* TABLET */
 
@@ -311,8 +349,6 @@ h1{
         display: flex;
         justify-content: center;
         text-align: center;
-        font-family: 'Clicker Script', cursive;
-        background-color: beige;
         font-size: 1.4rem;
         font-weight: bold;
         padding: 0.01rem;
@@ -454,9 +490,7 @@ h1{
     .pieDePagina {
         display: flex;
         justify-content: center;
-        text-align: center;
-        font-family: 'Clicker Script', cursive;
-        background-color: beige;
+        text-align: center;       
         font-size: 0.9rem;
         font-weight: bold;
         padding: 0.01rem;
@@ -495,6 +529,5 @@ h1{
     }
 
     
-
     
 }

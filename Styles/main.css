@@ -3,6 +3,51 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
+.elegirtamano-0.5rem {
+  font-size: 0.5rem;
+  height: 0.5rem;
+  width: 0.5rem; }
+
+.elegirtamano-0.7rem {
+  font-size: 0.7rem;
+  height: 0.7rem;
+  width: 0.7rem; }
+
+.elegirtamano-1rem {
+  font-size: 1rem;
+  height: 1rem;
+  width: 1rem; }
+
+.elegirtamano-1.3rem {
+  font-size: 1.3rem;
+  height: 1.3rem;
+  width: 1.3rem; }
+
+.elegirtamano-1.5rem {
+  font-size: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem; }
+
+.elegirtamano-1.7rem {
+  font-size: 1.7rem;
+  height: 1.7rem;
+  width: 1.7rem; }
+
+.elegirtamano-2rem {
+  font-size: 2rem;
+  height: 2rem;
+  width: 2rem; }
+
+.elegirtamano-2.5rem {
+  font-size: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem; }
+
+.elegirtamano-3rem {
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem; }
+
 h1 {
   display: flex;
   justify-content: center;
@@ -57,12 +102,14 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Clicker Script', cursive;
-  background-color: beige;
+  font-family: "Mountains of Christmas";
+  background-color: #003e1f;
+  color: #c20114;
   font-size: 1.4rem;
   font-weight: bold;
   padding: 0.01rem;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  flex-direction: column; }
 
 .contenedorLogo {
   display: flex;
@@ -143,7 +190,7 @@ h1 {
   font-size: 1.5rem;
   border-radius: 20px; }
 
-.presentacion {
+.presentacion, .textoservicios {
   background-color: beige;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
@@ -206,6 +253,9 @@ h1 {
 .formulario {
   max-height: 50%; }
 
+.textoservicios {
+  font-size: 1.4rem; }
+
 /* TABLET */
 @media screen and (max-width: 768px) {
   h1 {
@@ -250,13 +300,11 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Clicker Script', cursive;
-    background-color: beige;
     font-size: 1.4rem;
     font-weight: bold;
     padding: 0.01rem;
     margin-top: 3rem; }
-  .presentacion {
+  .presentacion, .textoservicios {
     font-size: 1.5rem; }
   .mainContent {
     display: flex;
@@ -357,8 +405,6 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Clicker Script', cursive;
-    background-color: beige;
     font-size: 0.9rem;
     font-weight: bold;
     padding: 0.01rem;
@@ -384,5 +430,5 @@ h1 {
     padding: 1rem;
     border-radius: 20px;
     margin: 1rem; }
-  .presentacion {
+  .presentacion, .textoservicios {
     font-size: 1rem; } }

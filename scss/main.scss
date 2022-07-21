@@ -1,10 +1,12 @@
 
-/* Variable simple */
-$fondoprincipal: url(../Multimedia/fondojardin.jpg);
-$fondonavidad: url(../Multimedia/fondonavidad.jpg);
+$mesde: navidad;
 
 body {
-    background-image: $fondonavidad;
+    @if $mesde == navidad {background-image: url(../Multimedia/fondonavidad.jpg);}
+    @else if $mesde == primavera {background-image: url(../Multimedia/fondojardin.jpg)}
+    @else if $mesde == otonio {background-image: url(../Multimedia/fondootonio.jpg);}
+    @else {background-color: mediumseagreen;}
+
     background-attachment: fixed;
     background-size: cover;
 }

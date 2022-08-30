@@ -101,6 +101,34 @@
 
         </section>
 
+        <form action="" method="post" id="miFormulario" class="miFormulario">
+
+            <label for="">Superficie en m2</label>
+
+            <input type="number" id="valor1" autofocus placeholder="0.0000">
+
+            <label for="" id="">Tipo de servicio</label>
+
+            <select name="" id="valor2">
+                <option value="15">Corte de césped</option>
+                <option value="30">Poda de parque</option>
+                <option value="25">Diseño de jardín</option>
+                <option value="40">Mantenimiento general</option>
+            </select>
+            
+            <input type="reset" value="Borrar valores">
+
+            <input type="button" value="Calcular" onclick="multiplicar()"></input>
+
+            <p> Presupuesto total en dólares americanos:</p>
+                
+            <p id="result">
+
+            </p>
+            
+        </form>
+
+
     </main>
 
     
@@ -114,6 +142,7 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../scripts/myscripts.js"></script>
 
 </body>
 

@@ -104,10 +104,9 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: "Mountains of Christmas";
-  background-color: #003e1f;
-  color: #c20114;
-  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: beige;
+  font-size: 0.9rem;
   font-weight: bold;
   padding: 0.01rem;
   margin-top: 3rem;
@@ -266,6 +265,29 @@ h1 {
 
 .textoservicios {
   font-size: 1.4rem; }
+
+.miFormulario {
+  background-color: beige;
+  font-size: 0.9rem;
+  font-family: 'Source Code Pro', monospace;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px; }
+  .miFormulario input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
+  .miFormulario button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
 
 /* TABLET */
 @media screen and (max-width: 768px) {

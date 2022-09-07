@@ -27,10 +27,24 @@ let serviciosExtraGrande = [
     {servicio: "Mantenimiento general" , precio: 27 },
 ]
 
+let serviciosGenerales = [
+    {serviciosChicos},
+    {serviciosMedianos},
+    {serviciosGrandes},
+    {serviciosExtraGrande}
+]
 
 function crearPresupuesto () {
     const presupuestoPers = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+    const productoSugerido
+
+    if (presupuestoPers <5) {productoSugerido=serviciosChicos} 
+    else if (presupuestoPers >5 && presupuestoPers <15 ) {productoSugerido=serviciosMedianos} 
+    else if (presupuestoPers >15 && presupuestoPers <50 ) {productoSugerido=serviciosGrandes} 
+    else {productoSugerido=serviciosExtraGrande} 
+
 }
+
 
 
 

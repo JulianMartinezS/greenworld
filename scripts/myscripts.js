@@ -28,6 +28,36 @@ let serviciosExtraGrande = [
 ]
 
 
+function crearPresupuesto () {
+    const presupuestoPers = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function  prompt ('¿Cuantos metros cuadrados tiene tu jardin/parque?')
+
+// if (prompt < 5) = alert ('Tu parque califica como - Chico -')
 
 
 

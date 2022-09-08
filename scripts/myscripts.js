@@ -36,13 +36,16 @@ let serviciosGenerales = [
 
 function crearPresupuesto () {
 
-    const presupuestoPers = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+    const presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
     
-    let respuestaServicios = serviciosGenerales.splice ()
-    
+    const presupuestoPrecio = prompt ("Ingresa el servicio que deseas. (Corte cespeded, Poda parque, Diseño jardín o Mantenimiento general")
     
 }
 
+crearPresupuesto ()
+
+console.log(presupuestoArea)
+console.log(presupuestoPrecio)
 
 
 // let productoSugerido

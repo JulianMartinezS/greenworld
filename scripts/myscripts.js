@@ -1,3 +1,75 @@
+function lafuncion () {
+
+let autos = [' Volkswagen ',' Fiat ',' Chevrolet ',' Mercedes ']
+
+console.log(autos)
+
+const camiones = ['Scania','Ford','Bmw','Renault']
+
+let favoritos = prompt ("¿Cual es tu marca de vehículos favorita?")
+
+autos.push (favoritos)
+
+alert ("Las marcas favoritas de autos de nuestros usuarios son"+autos)
+
+lafuncion ()
+
+}
+
+lafuncion ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let serviciosCortes = [
 //     {servicio: "Corte chico" , precio: 30},
 //     {servicio: "Corte mediano" , precio: 25},
@@ -27,37 +99,37 @@
 // ]
 
 
-let serviciosMedianos = [
-    {servicio: "Corte cesped" , precio: 12},
-    {servicio: "Poda parque" , precio: 25 },
-    {servicio: "Diseño jardin" , precio: 22 },
-    {servicio: "Mantenimiento general" , precio: 33 },
-]
+// let serviciosMedianos = [
+//     {servicio: "Corte cesped" , precio: 12},
+//     {servicio: "Poda parque" , precio: 25 },
+//     {servicio: "Diseño jardin" , precio: 22 },
+//     {servicio: "Mantenimiento general" , precio: 33 },
+// ]
 
-let serviciosGrandes = [
-    {servicio: "Corte cesped" , precio: 10},
-    {servicio: "Poda parque" , precio: 21 },
-    {servicio: "Diseño jardin" , precio: 18 },
-    {servicio: "Mantenimiento general" , precio: 29 },
-]
-
-
-
-let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
-
-let presupuestoTipo = prompt ("Viendo la tabla escribe el precio del servicio que deseas: Ej: 12")
-
-alert ("Su presupuesto personalizado es " + presupuestoArea*presupuestoTipo + " dolares.")
+// let serviciosGrandes = [
+//     {servicio: "Corte cesped" , precio: 10},
+//     {servicio: "Poda parque" , precio: 21 },
+//     {servicio: "Diseño jardin" , precio: 18 },
+//     {servicio: "Mantenimiento general" , precio: 29 },
+// ]
 
 
-function tuPresupuesto () {
+
+// let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+
+// let presupuestoTipo = prompt ("Viendo la tabla escribe el precio del servicio que deseas: Ej: 12")
+
+// alert ("Su presupuesto personalizado es " + presupuestoArea*presupuestoTipo + " dolares.")
+
+
+// function tuPresupuesto () {
 
     
 
-}
+// }
 
 
-tuPresupuesto ()
+// tuPresupuesto ()
 
 
 

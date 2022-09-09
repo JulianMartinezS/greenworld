@@ -1,50 +1,111 @@
-
-// let serviciosChicos = [
-//     {servicio: "Corte cesped" , precio: 15},
-//     {servicio: "Poda parque" , precio: 30 },
-//     {servicio: "Diseño jardin" , precio: 25 },
-//     {servicio: "Mantenimiento general" , precio: 40 },
+// let serviciosCortes = [
+//     {servicio: "Corte chico" , precio: 30},
+//     {servicio: "Corte mediano" , precio: 25},
+//     {servicio: "Corte grande" , precio: 21},
+//     {servicio: "Corte extra grande" , precio: 18},
 // ]
 
-// let serviciosMedianos = [
-//     {servicio: "Corte cesped" , precio: 12},
-//     {servicio: "Poda parque" , precio: 25 },
-//     {servicio: "Diseño jardin" , precio: 22 },
-//     {servicio: "Mantenimiento general" , precio: 33 },
+// let serviciosPodas = [
+//     {servicio: "Poda chico" , precio: 30},
+//     {servicio: "Poda mediano" , precio: 25},
+//     {servicio: "Poda grande" , precio: 21},
+//     {servicio: "Poda extra grande" , precio: 18},
 // ]
 
-// let serviciosGrandes = [
-//     {servicio: "Corte cesped" , precio: 10},
-//     {servicio: "Poda parque" , precio: 21 },
-//     {servicio: "Diseño jardin" , precio: 18 },
-//     {servicio: "Mantenimiento general" , precio: 29 },
+// let serviciosDisenio = [
+//     {servicio: "Diseño chico" , precio: 25},
+//     {servicio: "Diseño mediano" , precio: 22},
+//     {servicio: "Diseño grande" , precio: 18},
+//     {servicio: "Diseño extra grande" , precio: 15},
 // ]
 
-// let serviciosExtraGrande = [
-//     {servicio: "Corte cesped" , precio: 7 },
-//     {servicio: "Poda parque" , precio: 18 },
-//     {servicio: "Diseño jardin" , precio: 15 },
-//     {servicio: "Mantenimiento general" , precio: 27 },
-// ]
-
-// let serviciosGenerales = [
-//     {serviciosChicos},
-//     {serviciosMedianos},
-//     {serviciosGrandes},
-//     {serviciosExtraGrande}
+// let serviciosMantenimiento = [
+//     {servicio: "Mantenimiento chico" , precio: 40},
+//     {servicio: "Mantenimiento mediano" , precio: 33},
+//     {servicio: "Mantenimiento grande" , precio: 29},
+//     {servicio: "Mantenimiento extra grande" , precio: 27},
 // ]
 
 
-function crearPresupuesto () {
+let serviciosMedianos = [
+    {servicio: "Corte cesped" , precio: 12},
+    {servicio: "Poda parque" , precio: 25 },
+    {servicio: "Diseño jardin" , precio: 22 },
+    {servicio: "Mantenimiento general" , precio: 33 },
+]
+
+let serviciosGrandes = [
+    {servicio: "Corte cesped" , precio: 10},
+    {servicio: "Poda parque" , precio: 21 },
+    {servicio: "Diseño jardin" , precio: 18 },
+    {servicio: "Mantenimiento general" , precio: 29 },
+]
+
+
+
+let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+
+let presupuestoTipo = prompt ("Viendo la tabla escribe el precio del servicio que deseas: Ej: 12")
+
+alert ("Su presupuesto personalizado es " + presupuestoArea*presupuestoTipo + " dolares.")
+
+
+function tuPresupuesto () {
+
     
-    let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
-    
-    let presupuestoPrecio = prompt ("Ingresa el servicio que deseas. (Corte cespeded, Poda parque, Diseño jardín o Mantenimiento general")
-    
-    alert ("Su presupuesto personalizado es " + presupuestoArea*presupuestoPrecio + " dolares.")
+
 }
 
-crearPresupuesto ()
+
+tuPresupuesto ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function crearPresupuesto () {
+    
+//     let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
+    
+//     let presupuestoTipo = prompt ("Ingresa el tipo de servicio que deseas. (Corte, Poda, Diseño o Mantenimiento")
+    
+//     if (presupuestoTipo = Corte && presupuestoArea ≤6) {
+//         let buscar = serviciosCortes.find (elemm) => elemm.corteChico 
+//     }
+//     else if () {
+
+//     }
+//     else if () {
+
+//     }
+//     else () {
+
+//     }
+
+
+//     alert ("Su presupuesto personalizado es " + presupuestoArea* + " dolares.")
+// }
+
+// crearPresupuesto ()
+
+// console.log(buscar)
+
+// console.log("hola")
+
+
+
+
 
 
 

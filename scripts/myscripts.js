@@ -1,68 +1,22 @@
-function lafuncion () {
+// function lafuncion () {
 
-let autos = [' Volkswagen ',' Fiat ',' Chevrolet ',' Mercedes ']
+// let autos = [' Volkswagen ',' Fiat ',' Chevrolet ',' Mercedes ']
 
-console.log(autos)
+// console.log(autos)
 
-const camiones = ['Scania','Ford','Bmw','Renault']
+// const camiones = ['Scania','Ford','Bmw','Renault']
 
-let favoritos = prompt ("¿Cual es tu marca de vehículos favorita?")
+// let favoritos = prompt ("¿Cual es tu marca de vehículos favorita?")
 
-autos.push (favoritos)
+// autos.push (favoritos)
 
-alert ("Las marcas favoritas de autos de nuestros usuarios son"+autos)
+// alert ("Las marcas favoritas de autos de nuestros usuarios son: "+autos)
 
-lafuncion ()
+// lafuncion ()
 
-}
+// }
 
-lafuncion ()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// lafuncion ()
 
 
 
@@ -138,14 +92,6 @@ lafuncion ()
 
 
 
-
-
-
-
-
-
-
-
 // function crearPresupuesto () {
     
 //     let presupuestoArea = prompt ("Ingresa el área de tu parque en metros cuadrados. Ej: 42")
@@ -197,18 +143,6 @@ lafuncion ()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // function  prompt ('¿Cuantos metros cuadrados tiene tu jardin/parque?')
 
 // if (prompt < 5) = alert ('Tu parque califica como - Chico -')
@@ -219,28 +153,14 @@ lafuncion ()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function multiplicar() {
+function multiplicar() {
     
-//     const x = parseInt(document.getElementById('valor1').value)
+    const x = parseInt(document.getElementById('valor1').value)
 
-//     const y = parseInt(document.getElementById('valor2').value)
+    const y = parseInt(document.getElementById('valor2').value)
     
-//     document.getElementById('result').innerHTML = (x*y);
+    document.getElementById('result').innerHTML = (x*y);
 
-//     console.log(x,y)
+    console.log(x,y)
 
-// }
+}

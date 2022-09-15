@@ -155,12 +155,12 @@
 
 function multiplicar() {
     
-    const x = parseInt(document.getElementById('valor1').value)
+    const superficiePers = parseInt(document.getElementById('valor1').value)
 
-    const y = parseInt(document.getElementById('valor2').value)
+    const tipoDeServicio = parseInt(document.getElementById('valor2').value)
     
-    document.getElementById('result').innerHTML = (x*y);
+    document.getElementById('result').innerHTML = (superficiePers*tipoDeServicio); 
 
-    console.log(x,y)
+    console.log(superficiePers, tipoDeServicio)
 
 }

@@ -23,6 +23,10 @@
 // lafuncion ()
 
 
+let boton = document.getElementById("EventBtn")
+boton.addEventListener("click", multiplicar)
+
+
 function multiplicar() {
     
     const superficiePers = parseInt(document.getElementById('valor1').value)
@@ -34,6 +38,9 @@ function multiplicar() {
     console.log(superficiePers, tipoDeServicio)
 
 }
+
+
+
 
 
 Toastify({

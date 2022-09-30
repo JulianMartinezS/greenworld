@@ -23,41 +23,6 @@
 // lafuncion ()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function multiplicar() {
     
     const superficiePers = parseInt(document.getElementById('valor1').value)
@@ -69,3 +34,19 @@ function multiplicar() {
     console.log(superficiePers, tipoDeServicio)
 
 }
+
+
+Toastify({
+    text: "Nuestro sitio representa precios de servicios predeterminados, para obtener un servicio personalizado cliquea aquí !",
+    duration: 6000,
+    destination: "./contacto.html",
+    newWindow: true,
+    close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "center", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+    background: "linear-gradient(to right, #00b09b, #96c93d)",
+    },
+    onClick: function(){} // Callback after click
+}).showToast();

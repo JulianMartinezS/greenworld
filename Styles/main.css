@@ -153,6 +153,21 @@ h1 {
   margin-left: 1rem;
   margin-right: 1rem; }
 
+.secondText {
+  display: flex;
+  justify-items: flex-end;
+  background-color: beige;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
 .imagenesGaleria {
   display: grid;
   grid-template-columns: repeat(2, 50%);

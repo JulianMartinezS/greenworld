@@ -40,9 +40,6 @@ function multiplicar() {
 }
 
 
-
-
-
 Toastify({
     text: "Nuestro sitio representa precios de servicios predeterminados, para obtener un servicio personalizado cliquea aquí !",
     duration: 6000,
@@ -57,3 +54,31 @@ Toastify({
     },
     onClick: function(){} // Callback after click
 }).showToast();
+
+
+function cargarServicios (){
+    console.log(fetch('usuarios.json'))
+}
+
+cargarServicios();
+
+
+
+
+
+
+
+
+
+
+
+
+// const app ={};
+// const myCallback = data => {
+//     console.log(data)
+//     app.servicios=data;
+//     let nuevohtml = ""
+//     nuevohtml+="<h3>Nuestros servicios</h3>"
+//     nuevohtml+=""
+//     document.getElementById("bringServices").innerHTML = nuevohtml;
+// }

@@ -1,0 +1,39 @@
+[
+
+{ 
+    "tamanio":"Chico",
+    "comentario":"Hasta 5 m²",
+    "corte":"15",
+    "poda":"30",
+    "disenio":"25",
+    "mantenimiento":"40"
+},
+
+{
+    "tamanio":"Mediano",
+    "comentario":"De 6 a 15 m²",
+    "corte":"12",
+    "poda":"25",
+    "disenio":"22",
+    "mantenimiento":"33"
+},
+
+{
+    "tamanio":"Grande",
+    "comentario":"De 16 a 50 m²",
+    "corte":"10",
+    "poda":"21",
+    "disenio":"18",
+    "mantenimiento":"29"
+},
+
+{
+    "tamanio":"ExtraGrande",
+    "comentario":"Mas de 50 m²",
+    "corte":"7",
+    "poda":"18",
+    "disenio":"15",
+    "mantenimiento":"27"
+}
+
+]

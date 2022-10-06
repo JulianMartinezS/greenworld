@@ -56,8 +56,25 @@ Toastify({
 }).showToast();
 
 
+const tabla = document.querySelector('#')
+
 function cargarServicios (){
-    console.log(fetch('usuarios.json'))
+    fetch('servicios.json')
+    .then(respuesta => respuesta.json())
+    .then(servicios => {
+        servicios.forEach(servicios => {
+            const row = document.createElement('tr');
+            row.innerHTML += `
+            <td>${servicio.tamanio}</td>
+            <td>${servicio.comentario}</td>
+            <td>${servicio.corte}</td>
+            <td>${servicio.poda}</td>
+            <td>${servicio.disenio}</td>
+            <td>${servicio.mantenimiento}</td>
+            `;
+        });
+    })
+    .catch(error => console.log("Hubo un error :" + error.mensaje))
 }
 
 cargarServicios();

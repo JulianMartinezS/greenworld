@@ -56,7 +56,9 @@ Toastify({
 }).showToast();
 
 
-const tabla = document.querySelector('#')
+
+
+const tabla = document.querySelector('#lista-servicios')
 
 function cargarServicios (){
     fetch('servicios.json')
@@ -72,6 +74,7 @@ function cargarServicios (){
             <td>${servicio.disenio}</td>
             <td>${servicio.mantenimiento}</td>
             `;
+            tabla.appendChild(row);
         });
     })
     .catch(error => console.log("Hubo un error :" + error.mensaje))
